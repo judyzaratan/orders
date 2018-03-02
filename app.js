@@ -1,7 +1,7 @@
 const express = require('express');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
-const db = require('./models');
+// const db = require('./models');
 // Set up the express app
 const app = express();
 
@@ -16,9 +16,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.get('*', (req, res) => res.status(200).send({
   message: 'Welcome to the beginning of nothingness.',
 }));
+
+
 app.listen(3000, ()=> {
   console.log("example app")
-  db.sequelize.sync();
 });
 
 module.exports = app;

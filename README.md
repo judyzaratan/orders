@@ -11,10 +11,14 @@ Run Sequelize-cli locally
 
 ` /node_modules/.bin sequelize`
 
-
 Create a development database after Postgres is installed and running
 
 `createdb orders`
+
+
+Rename example.config.json to config.json file and update to your database settings
+Update username
+Update password
 
 
 

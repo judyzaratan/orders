@@ -24,6 +24,16 @@ Create a development database after Postgres is installed and running
 Configure database via Sequelize-CLI
 ./node_modules/.bin sequelize
 
+## Models
+
+- Customers
+- Products
+- Orders
+- Categories
+- Delivery Status
+
+
+
 ## Dependencies
 * Sequelize - ORM for Postgres DB
 * [Sequelize-CLI](https://github.com/sequelize/cli): used to manage models and db via CLI
